@@ -1,0 +1,40 @@
+---
+title: Nexus Maven Repository Deploy
+description: Nexus Maven Repository Deploy
+pubDatetime: 2024-01-29
+tags:
+  - Maven
+  - Nexus
+---
+
+## Nexus Maven Repository Deploy
+
+### 持久化目录增加权限
+
+```bash
+chmod 777 nexus-data
+```
+
+### Docker Compose
+
+```bash
+version: '3'
+services:
+  nexus3:
+    image: sonatype/nexus3
+    container_name: nexus3
+    ports:
+      - "8081:8081"
+    volumes:
+      - "/etc/localtime:/etc/localtime"
+      - "./nexus-data:/nexus-data"
+    restart: unless-stopped
+```
+
+### 新建角色
+![](../../assets/images/DraggedImage.png)
+
+### 参考链接
+```bash
+https://github.com/sonatype/docker-nexus3
+```

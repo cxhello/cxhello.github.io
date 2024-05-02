@@ -1,5 +1,5 @@
 ---
-title: kubeadm搭建Kubernetes环境.md
+title: kubeadm搭建Kubernetes环境
 description: kubeadm搭建Kubernetes环境
 pubDatetime: 2023-03-08
 tags:

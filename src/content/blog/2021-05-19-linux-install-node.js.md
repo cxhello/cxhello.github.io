@@ -1,10 +1,10 @@
 ---
-title: Node.js安装与配置
-description: Node.js安装与配置
+title: Linux install Node.js
+description: Linux install Node.js
 pubDatetime: 2021-05-19
 tags:
-  - Node.js
   - Linux
+  - Node.js
 ---
 
 ### 1.下载

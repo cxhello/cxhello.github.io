@@ -1,8 +1,9 @@
 ---
-title: Jenkins deploy
-description: Jenkins deploy
+title: Linux install Jenkins
+description: Linux install Jenkins
 pubDatetime: 2020-05-24
 tags:
+  - Linux
   - Jenkins
 ---
 

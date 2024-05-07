@@ -1,8 +1,9 @@
 ---
-title: Nginx deploy
-description: Nginx deploy
+title: Linux install Nginx
+description: Linux install Nginx
 pubDatetime: 2020-04-14
 tags:
+  - Linux
   - Nginx
 ---
 

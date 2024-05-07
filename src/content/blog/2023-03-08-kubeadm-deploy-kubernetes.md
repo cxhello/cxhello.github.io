@@ -6,7 +6,7 @@ tags:
   - Kubernetes
 ---
 
-# 1.前置说明
+## 1.前置说明
 > Docker版本：20.10.12
 >
 > Kubernetes版本：1.23.3
@@ -16,7 +16,7 @@ tags:
 | CentOS Linux release 7.6.1810 (Core) | 192.168.72.5 | 4C2G | k8s-master |
 | CentOS Linux release 7.6.1810 (Core) | 192.168.72.6 | 2C2G | k8s-worker-node1 |
 
-# 2.系统初始化
+## 2.系统初始化
 > 在每台机器上都执行以下命令
 
 ```bash
@@ -63,7 +63,7 @@ hostnamectl set-hostname k8s-worker-node1
 # 重启机器
 reboot
 ```
-# 3.安装docker
+## 3.安装docker
 > 在每台机器上都执行以下命令
 
 ```bash
@@ -110,7 +110,7 @@ systemctl daemon-reload
 systemctl start docker
 systemctl status docker
 ```
-# 4.安装kubeadm
+## 4.安装kubeadm
 > 在每台机器上都执行以下命令
 
 ```bash
@@ -130,7 +130,7 @@ yum install -y kubeadm-1.23.3 kubelet-1.23.3 kubectl-1.23.3
 # 设置开机自启【这里暂时先不启动 kubelet】
 systemctl enable kubelet
 ```
-# 5.安装k8s-master节点
+## 5.安装k8s-master节点
 ```bash
 kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=192.168.72.5 --kubernetes-version v1.23.3 --service-cidr=10.96.0.0/12 --image-repository registry.aliyuncs.com/google_containers
 
@@ -138,7 +138,7 @@ mkdir -p $HOME/.kube
 sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
-# 6.在k8s-master节点安装 Flannel 网络插件
+## 6.在k8s-master节点安装 Flannel 网络插件
 ```bash
 wget https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 # 添加
@@ -147,19 +147,19 @@ kubectl apply -f kube-flannel.yml
 kubectl get pods -n kube-system
 kubectl get node
 ```
-# 7.安装k8s-worker-node1节点
+## 7.安装k8s-worker-node1节点
 ```bash
 kubeadm join 192.168.72.5:6443 --token ywtnex.9mb4fmopgte85d9a \
 	--discovery-token-ca-cert-hash sha256:b531439b43991d4ed4da6d64354615936e21c4b3986e54d2305995537558619c
 ```
 ![image.png](../../assets/images/1678181516641-ca4fcf07-7f26-4d4e-8d69-b4b096cee756.png)
-# 8.测试
+## 8.测试
 ```bash
 kubectl run ngx --image=nginx:alpine
 kubectl get pod -o wide
 ```
 ![image.png](../../assets/images/1678182280283-4274a510-3613-4df5-ae70-4ce9c0cc0c60.png)
-# 9.k8s-worker-node1节点使用kubectl
+## 9.k8s-worker-node1节点使用kubectl
 ```bash
 # k8s-worker-node1执行
 mkdir -p $HOME/.kube

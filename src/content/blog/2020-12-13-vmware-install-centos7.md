@@ -1,11 +1,10 @@
 ---
-title: VMware install CentOS7
-description: VMware install CentOS7
+title: Windows VMware 安装 CentOS7
+description: Windows VMware 安装 CentOS7
 pubDatetime: 2020-12-13
 tags:
   - VMware
   - Windows
-  - Linux
 ---
 
 ### 1.软件下载

@@ -1,6 +1,6 @@
 ---
 title: Kubernetes Deploy Dashboard
-description: Kubernetes Deploy Dashboard
+description: ""
 pubDatetime: 2022-06-13
 tags:
   - Kubernetes

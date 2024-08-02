@@ -1,6 +1,6 @@
 ---
 title: Linux install Maven
-description: Linux install Maven
+description: ""
 pubDatetime: 2020-05-21
 tags:
   - Linux

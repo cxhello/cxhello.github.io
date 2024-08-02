@@ -1,6 +1,6 @@
 ---
 title: Linux install Java
-description: Linux install Java
+description: ""
 pubDatetime: 2020-07-12
 tags:
   - Linux

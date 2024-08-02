@@ -1,6 +1,6 @@
 ---
 title: Docker deploy
-description: Docker deploy
+description: ""
 pubDatetime: 2020-12-13
 tags:
   - Docker

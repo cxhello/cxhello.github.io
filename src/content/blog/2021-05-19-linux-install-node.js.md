@@ -1,6 +1,6 @@
 ---
 title: Linux install Node.js
-description: Linux install Node.js
+description: ""
 pubDatetime: 2021-05-19
 tags:
   - Linux

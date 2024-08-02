@@ -1,6 +1,6 @@
 ---
 title: Linux install Git
-description: Linux install Git
+description: ""
 pubDatetime: 2020-06-09
 tags:
   - Linux

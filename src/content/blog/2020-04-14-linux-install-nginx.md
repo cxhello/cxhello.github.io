@@ -1,6 +1,6 @@
 ---
 title: Linux install Nginx
-description: Linux install Nginx
+description: ""
 pubDatetime: 2020-04-14
 tags:
   - Linux

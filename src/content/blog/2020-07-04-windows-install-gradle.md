@@ -1,6 +1,6 @@
 ---
 title: Windows 安装 Gradle
-description: Windows 安装 Gradle
+description: ""
 pubDatetime: 2020-07-04
 tags:
   - Windows

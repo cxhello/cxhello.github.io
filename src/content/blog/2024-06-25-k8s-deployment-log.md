@@ -1,6 +1,6 @@
 ---
 title: 使用脚本快速查看 Kubernetes Deployment 日志
-description: 使用脚本快速查看 Kubernetes Deployment 日志
+description: ""
 pubDatetime: 2024-06-25
 tags:
   - Kubernetes

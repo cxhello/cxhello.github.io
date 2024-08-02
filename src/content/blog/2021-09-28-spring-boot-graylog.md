@@ -1,6 +1,6 @@
 ---
 title: Spring Boot 应用接入 Graylog
-description: Spring Boot 应用接入 Graylog
+description: ""
 pubDatetime: 2021-09-28
 tags:
   - Java

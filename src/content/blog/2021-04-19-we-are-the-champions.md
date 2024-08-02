@@ -1,6 +1,6 @@
 ---
 title: We are the champions
-description: We are the champions
+description: ""
 pubDatetime: 2021-04-19
 tags:
   - Life

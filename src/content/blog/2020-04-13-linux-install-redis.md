@@ -1,6 +1,6 @@
 ---
 title: Linux install Redis
-description: Linux install Redis
+description: ""
 pubDatetime: 2020-04-13
 tags:
   - Linux

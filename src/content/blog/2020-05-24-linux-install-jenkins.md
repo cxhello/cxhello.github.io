@@ -1,6 +1,6 @@
 ---
 title: Linux install Jenkins
-description: Linux install Jenkins
+description: ""
 pubDatetime: 2020-05-24
 tags:
   - Linux

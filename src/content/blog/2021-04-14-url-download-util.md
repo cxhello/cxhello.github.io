@@ -1,6 +1,6 @@
 ---
 title: Java URL Download
-description: Java URL Download
+description: ""
 pubDatetime: 2021-04-14
 tags:
   - Java

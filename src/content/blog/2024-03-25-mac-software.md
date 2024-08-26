@@ -183,3 +183,10 @@ sdk default java 23.0.3.r17-nik
 ```bash
 brew autoremove
 ```
+
+### Go
+
+```bash
+brew install go@1.21
+```
+

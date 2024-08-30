@@ -188,5 +188,6 @@ brew autoremove
 
 ```bash
 brew install go@1.21
+go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
